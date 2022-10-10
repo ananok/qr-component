@@ -1,0 +1,201 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+      
+body {
+  position: relative;
+  width: 375px;
+  height: 667px;
+  background-color: #D5E1EF;
+}
+
+
+.container {
+  position: absolute;
+  width: 320px;
+  height: 497px;
+  left: 28px;
+  top: 85px;
+  background: #ffffff;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+  border-radius: 20px;
+}
+
+.qr_code {
+  position: absolute;
+  width: 288px;
+  height: 288px;
+  left: 16px;
+  top: 16px;
+  background: #2c7dfa;
+  border-radius: 10px;
+}
+
+.title{
+    position: absolute;
+    height: 56px;
+    width:281px;
+    top:328px;
+    left:16px;
+    right:16px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #1f314f;
+}
+
+.paragraph{
+  position: absolute;
+  width:256px;
+  height: 57px;
+  left: 32px;
+  right: 32px;
+  top: 400px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.1875px;
+  color: #7d889e;
+}
+
+@media (min-width: 1440px) {
+    body {
+        width: 1440px;
+        height: 800px;
+      }
+      
+    .container {
+      left: 560px;
+      top: 152px;
+      width:320px;
+    }
+}
