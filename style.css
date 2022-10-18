@@ -127,17 +127,20 @@ table {
       
 body {
   position: relative;
-  width: 375px;
+  width: 100%;
   height: 667px;
   background-color: #D5E1EF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 
 .container {
   position: absolute;
-  width: 320px;
+  min-width: 320px;
   height: 497px;
-  left: 28px;
   top: 85px;
   background: #ffffff;
   box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
